@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!-- connexion-->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page de connexion</title>
+  <link rel="stylesheet" href="index2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+  <form method="POST" action="authentification.php">
+    <img src="images\eigsi logo.png" alt="Logo EIGSIBook" class="logo">
+    <h1>EIGSIbook</h1>
+
+    <p class="connexion">Connexion :</p>
+    <div class="inputs">
+      <input type="email" id="email" name="email" placeholder="Email" required>
+      <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+    </div>
+    <div align="center">
+      <button type="submit">Se connecter</button>
+    </div>
+    <div align="center">
+      <p class="inscription">Je n'ai pas de compte. Je m'en <a href="inscription.php" class="creer">crée</a> un.</p>
+    </div>
+
+  </form>
+</body>
+</html>
+
